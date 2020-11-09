@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cards</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+
+    <div class = "width">
+        <div class = "buttons_area">
+            <button class = buttons  onclick = "restartClick()">Start</button>
+            <button class = buttons id = "restartButton" onclick = "restartClick()">Restart</button>
+            <button class = buttons id = "hintButton" onclick = "hintClick()">Hint</button>
+            <button class = buttons onclick = "addThreeCards(cardShow,deck)">Add 3 cards</button>
+        </div>
+
+        <br>
+        <br>
+        <h1>Score: <span id ="score"> 0</span></h1>
+        <body onload="cdreset()">Time remain(In Seconds): 
+        <span id="timespan"></span>
+        </body>
+        <h3>Cards in the deck: <span id = "cardsRemain">81</span></h3>
+
+
+        <div class = "cards_div">
+            <table id = "cards_table">
+                    <tr>
+                        <td class = "cards" ><img id = "card1" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card2" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card3" src = "images/empty.png"></td>
+                    </tr>
+                    <tr>
+                        <td class = "cards" ><img id = "card4" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card5" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card6" src = "images/empty.png"></td>
+                    </tr>
+                    <tr>
+                        <td class = "cards" ><img id = "card7" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card8" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card9" src = "images/empty.png"></td>
+                    </tr>
+                    <tr>
+                        <td class = "cards" ><img id = "card10" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card11" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card12" src = "images/empty.png"></td>
+                    </tr>
+                    <tr>
+                        <td class = "cards" ><img id = "card13" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card14" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card15" src = "images/empty.png"></td>
+                    </tr>
+                    <tr>
+                        <td class = "cards" ><img id = "card16" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card17" src = "images/empty.png"></td>
+                        <td class = "cards" ><img id = "card18" src = "images/empty.png"></td>
+                        </tr>
+                
+            </table>
+        </div>
+       
+    </div>
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
